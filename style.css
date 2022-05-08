@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200;400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +10,8 @@
 body {
     background-color: #6afdff;
 }
+
+
 
 .resume-contents {
     min-height: 100vh;
@@ -41,7 +41,7 @@ body {
     box-shadow: #1B2631 0px 0px 7px 2.5px;
 }
 
-.left-section-contents{
+.left-section-contents {
     padding: 2rem 2rem;
 }
 
@@ -96,6 +96,16 @@ body {
     padding-top: 1.5rem;
 }
 
+a:link,
+a:active,
+a:hover,
+a:visited {
+    color: #639ee2;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
@@ -116,6 +126,7 @@ body {
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     color: #639ee2;
@@ -163,6 +174,7 @@ body {
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     letter-spacing: 1px;
@@ -222,6 +234,7 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
+
     .experience-contents,
     .education-contents,
     .awards-contents {
@@ -233,11 +246,11 @@ body {
     .left-section {
         grid-column: span 3;
     }
-    
+
     .right-section {
         grid-column: span 4;
     }
-    
+
 }
 
 @media screen and (max-width:1200px) {
