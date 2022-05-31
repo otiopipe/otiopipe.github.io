@@ -240,6 +240,13 @@ a:visited {
     .awards-contents {
         grid-template-columns: repeat(1, 1fr);
     }
+    .left-section {
+        margin-right: 0px;
+    }
+    
+    .right-section {
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width:780px) {
@@ -250,12 +257,25 @@ a:visited {
     .right-section {
         grid-column: span 4;
     }
-
+    .left-section {
+        margin-right: 0px;
+    }
+    
+    .right-section {
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width:1200px) {
     .resume-contents {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .left-section {
+        margin-right: 0px;
+    }
+    
+    .right-section {
+        margin-left: 0px;
     }
 }
 
@@ -263,6 +283,13 @@ a:visited {
     .resume-contents {
         width: 100%;
         margin: 0 auto;
+    }
+    .left-section {
+        margin-right: 0px;
+    }
+    
+    .right-section {
+        margin-left: 0px;
     }
 
     .name {
